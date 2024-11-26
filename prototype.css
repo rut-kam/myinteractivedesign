@@ -1,0 +1,376 @@
+@charset "UTF-8";
+/* CSS Document */
+body {background-color: #F704D7;	
+	
+font-family: "Roboto"}
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+
+
+.keyboard {width: 100px;
+	       height: 100px;
+	       background-color:#F7B1EF;
+	       border-radius: 15px;
+	       border-width: thick;
+	       border-color: #F284E5;
+	       color:#C344CD;
+           margin-bottom: 50px;
+           margin-left:20px;
+	       font-size: 40px;}
+
+#qwe {max-height: 120px;
+     max-width: 120px;}
+#W {margin-left: 130px;
+   margin-top: -00px;}
+#E{margin-left: 120px;
+   margin-top: -200px;}
+#R
+#T
+#Y
+#U
+#I
+#O
+#P
+
+
+
+
+
+
+
+
+
+
+
+
+
+#BrineySpears {background-color:#F08EDB;
+               margin-top: -150px;
+               margin-left: -10px;
+               margin-right: -100px;}
+
+#Britney{margin-left: 750px;
+color: #CF2DAD;
+font-weight: 900;
+font-size: 200px;
+font-style: italic;
+text-shadow: #F7B1EF 5px 10px;}
+
+#Britney:hover{font-weight: 900;
+               font-size: 200px;
+               color: #F7B1EF; 
+	           text-shadow:#CF2DAD 5px 10px;}
+
+#Spears {margin-top: -200px;
+	    padding-left: 850px;
+	    color: #F7B1EF;
+        font-size: 150px;
+        font-weight: 400;
+        font-style: italic;
+        text-shadow:#CF2DAD 5px 10px;}
+
+#Spears:hover {font-size: 150px;
+               font-weight: 400;
+               font-style: italic;
+               color: #CF2DAD;
+               text-shadow:#F7B1EF 5px 10px;	}
+
+#Dec {color: #C344CD;
+	font-size: 90px;
+	font-weight: 100;}
+
+#day {color: #F200DE;
+padding-left: 200px;
+margin-top: -110px;
+font-size: 100px;
+font-weight: 500;}
+
+#Princess {font-size: 100px;
+margin-top:-150px;
+color: #7F00AE}
+
+#OfPop {color: #C344CD;
+	font-size: 90px;
+	font-weight: 100;
+margin-top: -150px}
+
+#year{color: #F200DE;
+font-size: 100px;
+font-weight: 500;
+margin-top: -150px}
+
+#BritAbout {color: #7F00AE;
+font-style: italic;
+font-weight: 300;
+padding-left: 200px;
+margin-top: -100px;}
+
+#britpic {padding-left: 1000px;
+margin-top: -715px}
+	
+#kobe {background-color: #A23ED4;
+	   margin-left: -10px;
+       padding-left: 350px;
+	padding-top: 10px;
+       margin-top: -40px;
+	   margin-right: -100px;
+		    }
+
+#nba {color:#F7B1EF;
+font-size: 30px;}
+
+#headline {color:#F08EDB;
+	font-size: 20px; }
+
+#hl2{color:#F08EDB;
+    font-size: 12px;
+	font-weight:100;
+margin-top: -20px}
+
+#bodycopy {color:#F4D518;
+font-size: 10px;}
+
+#bodycopy2{color:#F4D518;
+          font-size: 10px;
+          margin-left: 300px;
+          margin-top: -425px}
+
+#kobepic{margin-left: 450px;
+         margin-top: -490px;}
+
+#lg {background-color: #BB9416;
+	 padding-top: 50px;
+	 padding-bottom:100px;
+	 padding-left: 300px;
+	 margin-left: -100px;
+	 margin-right: -100px;
+ }
+
+#Lizzie{color: #1D0F5B;
+       font-size: 100px;
+       margin-top: -1080px;
+       padding-left: 300px;}
+#mcquire{color: #1D0F5B;
+       font-size: 100px;
+       margin-top: -220px;
+       padding-left: 200px;}
+#lizpic {margin-top: -150px;
+	margin-left: 700px;}
+
+
+#bgimg {margin-top: -300px;}
+
+#lines {margin-top:-1500px;
+ }
+
+#playstation{background-color: #00046C;
+            margin-left: -20px;
+            margin-right: -100px;
+            padding-bottom: 400px;
+            padding-top: 400px;
+            padding-left: 20px;
+           padding-right: 200px;
+            }
+
+#PS2{color: #F08EDB;
+    font-size: 90px;
+	font-weight: 300;
+	font-style: italic;
+	padding-left: 500px;
+	margin-bottom: -70px;
+    Letter-spacing: 5px;  }
+
+
+
+#Ps {transition: 0.5s;
+     margin-right: 20px;}
+
+#Sp  {transition: 0.5s;
+      margin-right: 30px;}
+
+PS2:hover {text-shadow: 2px 2px 10px #000000;
+
+  filter: dropshadow(color=#000000, offx=2, offy=2);
+}
+
+
+#playstation2 {color: #6BA2E5;
+              font-weight: 100;
+              font-style: italic;
+              font-size: 50px;
+              padding-left: 450px;
+              margin-bottom: 0px;}
+
+
+#ps{color: #F200DE;
+   font-size: 9px;
+   padding-left: 550px;}
+
+#billboard{background-color:#CF2DAD;
+          padding-top: 850px;
+          padding-bottom: 40px;	
+          margin-left: -10px;
+          margin-right: -100px;
+          margin-bottom: -1000px}
+#bbhl{color:#F08EDB;
+     margin-left: 510px;
+	margin-top: -850px;
+	font-weight: 300;
+	font-size: 25px}
+
+#li{margin-top: -200px;
+margin-left: 400px;}
+
+#hitslist {color:#7F00AE;
+	       margin-left: 500px;
+	       margin-top: 200px;
+           font-size: 25px;}
+
+#jan{margin-bottom: 50px;}
+
+#feb {margin-bottom: 50px;}
+
+#mar {margin-bottom: -5px;}
+
+#march {margin-bottom: -20px;}
+
+
+#aug{margin-top: 30px;}
+
+#bblines {margin-top: -1180px;
+          margin-left: 400px;}
+
+
+#myspace{background-color: #7F00AE;
+         margin-left: -10px;
+         margin-right: -100px;
+	     margin-bottom: 20px;
+         padding-top: 20px;
+         padding-bottom: 500px;}
+
+#screen{margin-top: -400px;
+	    margin-left: 300px;
+        width: 1000px;
+        height: 1150px;}
+
+#nav {color: aliceblue;
+      margin-top: -675px;
+      margin-left: 350px;
+      font-weight:100;}
+
+#name {color:#7F00AE;
+	  margin-left:450px;
+	  font-weight:700;
+      font-size: 30px;
+      margin-top:70px;}
+
+#smile {color:#7F00AE;
+        margin-left:700px;
+        font-size: 30px;
+        margin-top: -50px;
+        font-weight: 300;}
+
+#info {color:#7F00AE;
+	  margin-left:700px;
+      font-size: 25px;
+      font-weight: 300;}
+
+#online {color:#F7B1EF;
+        margin-left:700px;
+        font-size: 25px;
+        margin-top: -20px;}
+
+#login{color:#7F00AE;
+      margin-left:700px;
+      font-size: 25px;
+      font-weight: 300;
+      margin-top: -20px;}
+
+#view {color:#7F00AE;
+	   margin-left:410px;
+	   margin-top: 40px;
+       font-size: 35px;
+       font-weight:100;}
+
+.now{color:#7F00AE;}
+
+.pics {color:#F7B1EF;
+      font-weight:700;
+      margin-left:10px;
+      font-size: 25px;}
+
+.videos {margin-left:15px;}
+
+#viewmy{}
+
