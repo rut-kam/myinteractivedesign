@@ -1,6 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
 body {background-color: #F704D7;	
+		
+scroll-behavior: smooth;
+	
+margin: auto;
+	
+margin-top: 60px;
 	
 font-family: "Roboto"}
 .roboto-thin {
@@ -75,8 +81,10 @@ font-family: "Roboto"}
   font-style: italic;
 }
 
-
-
+#main {background-color:#7F00AE ;
+	   margin-bottom:330px;
+       padding-top: 70px;
+margin-top: 50px;}
 
 .keyboard {width: 100px;
 	       height: 100px;
@@ -84,53 +92,45 @@ font-family: "Roboto"}
 	       border-radius: 15px;
 	       border-width: thick;
 	       border-color: #F284E5;
-	       color:#C344CD;
+	       color:#CF2DAD;
            margin-bottom: 50px;
            margin-left:20px;
-	       font-size: 40px;}
+	       font-size: 40px;
+           margin-top: 80px;;}
 
-#qwe {max-height: 120px;
-     max-width: 120px;}
-#W {margin-left: 130px;
-   margin-top: -00px;}
-#E{margin-left: 120px;
-   margin-top: -200px;}
-#R
-#T
-#Y
-#U
-#I
-#O
-#P
+#numbers{padding-left:80px;}
 
+#qwe {margin-top:-110px;
+	padding-left:100px;}
 
+#asd {padding-left:120px;
+      margin-top:-100px;}
 
+#zxc {padding-left:140px;
+	  margin-top:-100px;}
 
-
-
-
-
-
-
-
-
+#britpic{max-height:700px;
+max-width:700px;
+margin-left:1080px;
+margin-bottom:-1090px;}
 
 #BrineySpears {background-color:#F08EDB;
-               margin-top: -150px;
-               margin-left: -10px;
-               margin-right: -100px;}
+               margin-top: -50px;
+               padding-bottom: 40px;
+               width: auto;}
 
 #Britney{margin-left: 750px;
-color: #CF2DAD;
-font-weight: 900;
-font-size: 200px;
-font-style: italic;
-text-shadow: #F7B1EF 5px 10px;}
+color:#CF2DAD;
+font-weight:900;
+font-size:200px;
+font-style:italic;
+text-shadow:#F7B1EF 5px 10px;}
 
 #Britney:hover{font-weight: 900;
                font-size: 200px;
                color: #F7B1EF; 
-	           text-shadow:#CF2DAD 5px 10px;}
+	           text-shadow:#CF2DAD 5px 10px;
+               transition:.5s;}
 
 #Spears {margin-top: -200px;
 	    padding-left: 850px;
@@ -144,54 +144,94 @@ text-shadow: #F7B1EF 5px 10px;}
                font-weight: 400;
                font-style: italic;
                color: #CF2DAD;
-               text-shadow:#F7B1EF 5px 10px;	}
+               text-shadow:#F7B1EF 5px 10px;
+               transition:.5s;}
 
 #Dec {color: #C344CD;
 	font-size: 90px;
 	font-weight: 100;}
 
-#day {color: #F200DE;
+#Dec:hover {font-weight: 900;
+color:#C344CD;
+transition:.5s;}
+
+#day {color:#F200DE;
 padding-left: 200px;
 margin-top: -110px;
 font-size: 100px;
 font-weight: 500;}
 
+#day:hover {font-weight: 100;
+color:#F200DE;
+transition:.5s;}
+
 #Princess {font-size: 100px;
 margin-top:-150px;
 color: #7F00AE}
 
-#OfPop {color: #C344CD;
+#Princess:hover {font-weight: 100;
+color:#7F00AE;
+transition:.5s;}
+
+#OfPop {color:#C344CD;
 	font-size: 90px;
 	font-weight: 100;
-margin-top: -150px}
+    margin-top: -150px}
+
+#OfPop:hover{font-weight: 900;
+color:#C344CD;
+transition:.5s;}
 
 #year{color: #F200DE;
 font-size: 100px;
 font-weight: 500;
 margin-top: -150px}
 
-#BritAbout {color: #7F00AE;
+#year:hover{font-weight:100;
+color: #F200DE;
+transition:.5s;} 
+
+#BritAbout{color: #7F00AE;
 font-style: italic;
 font-weight: 300;
 padding-left: 200px;
 margin-top: -100px;}
 
-#britpic {padding-left: 1000px;
-margin-top: -715px}
-	
-#kobe {background-color: #A23ED4;
-	   margin-left: -10px;
-       padding-left: 350px;
-	padding-top: 10px;
-       margin-top: -40px;
-	   margin-right: -100px;
-		    }
+#BritAbout:hover{color: #7F00AE;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+transition: .5s;}
 
-#nba {color:#F7B1EF;
+#kobe {background-color: #A23ED4;
+	    width: auto;
+       padding-left: 350px;
+	   padding-top: 10px;
+       margin-top: -40px;}
+
+#nba{color:#F7B1EF;
 font-size: 30px;}
 
+#nba:hover{text-shadow:
+				0 0 10px #F4D518,
+				0 0 20px #F4D518,
+				0 0 40px #F4D518,
+				0 0 80px #F4D518,
+				0 0 120px #F4D518,
+	            0 0 160px #F4D518;
+                transition: 3s;}
+
 #headline {color:#F08EDB;
-	font-size: 20px; }
+	font-size: 20px;}
+
+#headline:hover{text-shadow:
+				0 0 10px #7F00AE,
+				0 0 20px #7F00AE,
+				0 0 40px #7F00AE,
+				0 0 80px #7F00AE,
+				0 0 120px #7F00AE,
+	            0 0 160px #7F00AE;
+                transition: 3s;}
 
 #hl2{color:#F08EDB;
     font-size: 12px;
@@ -199,7 +239,15 @@ font-size: 30px;}
 margin-top: -20px}
 
 #bodycopy {color:#F4D518;
-font-size: 10px;}
+font-size: 10px;
+}
+
+#bodycopy:hover {transform: scale(1.5);
+	    transition: 1s;
+        font-weight: 900;
+text-shadow:#F4D518; }
+
+
 
 #bodycopy2{color:#F4D518;
           font-size: 10px;
@@ -209,22 +257,86 @@ font-size: 10px;}
 #kobepic{margin-left: 450px;
          margin-top: -490px;}
 
+#kobepic:hover {transform: scale(1.5);
+	    transition: 1.5s;}
+
+
+
 #lg {background-color: #BB9416;
 	 padding-top: 50px;
 	 padding-bottom:100px;
 	 padding-left: 300px;
-	 margin-left: -100px;
-	 margin-right: -100px;
- }
+	 width: auto;
+     }
 
 #Lizzie{color: #1D0F5B;
        font-size: 100px;
        margin-top: -1080px;
        padding-left: 300px;}
+
+#Lizzie:hover {transform: scale(1.5);
+	    transition: 1.5s;}
+
+
+
+#Lizzie:hover :after  {
+  content: "Neo-Grotesque San-Serif";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+
+
+
+#Lizzie:hover :after {
+  visibility: visible;
+  opacity: 1;
+font-size: 30px;
+	color:#F08EDB;
+	transition: .5s;
+	text-shadow:#7F00AE 3px 2px; 
+}
+
+
 #mcquire{color: #1D0F5B;
        font-size: 100px;
        margin-top: -220px;
        padding-left: 200px;}
+
+#mcquire:hover {transform: scale(1.5);
+         transition: 1.5s;}
+
+
+#mcquire:hover :after  {
+  content: "Subtle curves Open counterforms";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+
+
+
+#mcquire:hover :after {
+  visibility: visible;
+  opacity: 1;
+font-size: 30px;
+	text-shadow:#7F00AE 3px 2px; 
+	color:#F08EDB;
+	transition: .5s;
+}
+
+
+
+
+
 #lizpic {margin-top: -150px;
 	margin-left: 700px;}
 
@@ -235,59 +347,92 @@ font-size: 10px;}
  }
 
 #playstation{background-color: #00046C;
-            margin-left: -20px;
-            margin-right: -100px;
+           
+             width: auto;
             padding-bottom: 400px;
             padding-top: 400px;
             padding-left: 20px;
-           padding-right: 200px;
-            }
+            padding-right: 200px;
+            scroll-behavior: smooth; }
 
 #PS2{color: #F08EDB;
-    font-size: 90px;
+    font-size: 150px;
 	font-weight: 300;
 	font-style: italic;
 	padding-left: 500px;
-	margin-bottom: -70px;
+	margin-bottom: -120px;
     Letter-spacing: 5px;  }
 
-
-
 #Ps {transition: 0.5s;
-     margin-right: 20px;}
+     margin-right: 50px;}
 
 #Sp  {transition: 0.5s;
       margin-right: 30px;}
 
-PS2:hover {text-shadow: 2px 2px 10px #000000;
-
-  filter: dropshadow(color=#000000, offx=2, offy=2);
-}
+#PS2:hover {
+	transition:.5s;
+	color: #F200DE;
+	text-shadow:
+	0 0 10px#F200DE,
+	0 0 20px #F200DE,
+	0 0 40px #F200DE,
+	0 0 80px #F200DE,
+	0 0 120px #F200DE,
+	0 0 160px #F200DE;
+     transform: scale(1.5);}
 
 
 #playstation2 {color: #6BA2E5;
               font-weight: 100;
               font-style: italic;
-              font-size: 50px;
+              font-size: 100px;
               padding-left: 450px;
-              margin-bottom: 0px;}
+              margin-bottom: 0px;
+	          transform: scale(1.5);}
 
+#playstation2:hover {transition:.5s;
+	transform: scale(1.5);
+	            color: #F08EDB;
+	            text-shadow:
+				0 0 10px#F08EDB,
+				0 0 20px #F08EDB,
+				0 0 40px #F08EDB,
+				0 0 80px #F08EDB,
+				0 0 120px #F08EDB,
+				0 0 160px #F08EDB; 
+				}
 
 #ps{color: #F200DE;
-   font-size: 9px;
-   padding-left: 550px;}
+   font-size: 20px;
+   padding-left: 800px;}
+
+#ps:hover {transition:.1s; 
+		  transform: scale(1.5);
+          color: #6BA2E5;
+	            text-shadow:
+				0 0 10px #6BA2E5,
+				0 0 20px #6BA2E5,
+				0 0 40px #6BA2E5,
+				0 0 80px #6BA2E5,
+				0 0 120px#6BA2E5,
+				0 0 160px #6BA2E5; }
 
 #billboard{background-color:#CF2DAD;
           padding-top: 850px;
           padding-bottom: 40px;	
-          margin-left: -10px;
-          margin-right: -100px;
-          margin-bottom: -1000px}
+           width: auto;
+          margin-bottom: -1000px;
+          scroll-behavior: smooth;}
+
 #bbhl{color:#F08EDB;
      margin-left: 510px;
 	margin-top: -850px;
 	font-weight: 300;
 	font-size: 25px}
+
+#bbhl:hover {transition:0.5s;
+	        font-weight: 900;
+            transform: scale(1.3);}
 
 #li{margin-top: -200px;
 margin-left: 400px;}
@@ -297,69 +442,121 @@ margin-left: 400px;}
 	       margin-top: 200px;
            font-size: 25px;}
 
-#jan{margin-bottom: 50px;}
+#janc:hover {transition:0.5s;
+	         font-style: italic;
+             font-weight: 200;
+             transform: scale(1.3);}
 
-#feb {margin-bottom: 50px;}
+#jans:hover {transition:0.5s;
+	        font-weight: 500;
+            transform: scale(1.3);}
 
-#mar {margin-bottom: -5px;}
+#feb:hover{transition:0.5s;
+	         font-style: italic;
+             font-weight: 900;
+             transform: scale(1.3);}
 
-#march {margin-bottom: -20px;}
+
+#mar:hover{transition:0.5s;
+             font-weight: 100;
+             transform: scale(1.3);}
+
+#mard:hover{transition:0.5s;
+             font-weight: 300;
+	         font-style: italic;
+             transform: scale(1.3);}
 
 
-#aug{margin-top: 30px;}
+#apr:hover{transition:0.5s;
+             font-weight: 100;
+             transform: scale(1.3);}
+
+#jun:hover{transition:0.5s;
+             font-weight: 700;
+             transform: scale(1.3);}
+
+
+#june:hover{transition:0.5s;
+	         font-style: italic;
+             font-weight: 900;
+             transform: scale(1.3);}
+
+
+#jul:hover{transition:0.5s;
+             font-weight: 200;
+             transform: scale(1.3);}
+
+
+#julm:hover{transition:0.5s;
+	         font-style: italic;
+             font-weight: 200;
+             transform: scale(1.3);}
+
+
+#juln:hover{transition:0.5s;
+             font-weight: 200;
+             transform: scale(1.3);}
+
+
+#aug:hover{transition:0.5s;
+	         font-style: italic;
+             font-weight: 200;
+             transform: scale(1.3);}
+
 
 #bblines {margin-top: -1180px;
           margin-left: 400px;}
 
 
 #myspace{background-color: #7F00AE;
-         margin-left: -10px;
-         margin-right: -100px;
+         width: 100%;
 	     margin-bottom: 20px;
          padding-top: 20px;
          padding-bottom: 500px;}
 
-#screen{margin-top: -400px;
-	    margin-left: 300px;
-        width: 1000px;
+#screen{padding-left: 200px;
+	margin-right: 200px;
+	    margin-left: 200px;
+         width: auto;
         height: 1150px;}
 
 #nav {color: aliceblue;
-      margin-top: -675px;
-      margin-left: 350px;
+      margin-top: -1100px;
+      margin-left: 425px;
+	  font-size: 15px;
       font-weight:100;}
 
 #name {color:#7F00AE;
-	  margin-left:450px;
+	  margin-left:500px;
 	  font-weight:700;
       font-size: 30px;
       margin-top:70px;}
 
 #smile {color:#7F00AE;
-        margin-left:700px;
+        margin-left:750px;
         font-size: 30px;
         margin-top: -50px;
         font-weight: 300;}
 
 #info {color:#7F00AE;
-	  margin-left:700px;
+	  margin-left:750px;
       font-size: 25px;
       font-weight: 300;}
 
 #online {color:#F7B1EF;
-        margin-left:700px;
+        margin-left:750px;
         font-size: 25px;
         margin-top: -20px;}
 
 #login{color:#7F00AE;
-      margin-left:700px;
+      margin-left:750px;
       font-size: 25px;
       font-weight: 300;
       margin-top: -20px;}
 
 #view {color:#7F00AE;
-	   margin-left:410px;
-	   margin-top: 40px;
+	   margin-left:470px;
+	   margin-top: -40px;
        font-size: 35px;
        font-weight:100;}
 
